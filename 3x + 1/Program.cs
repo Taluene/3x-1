@@ -6,14 +6,18 @@ namespace _3x___1
     {
         static void Main(string[] args)
         {
-            ulong number = 18446744073709551615;
+            ulong number = 1; //testing
                            
 
-            for (int i = 0; i <= 1; i++)
+            for (int i = 0; i <= 1000; i++)
             {
                 round(number, 0);
                 number++;
             }
+
+
+
+
 
 
         }
